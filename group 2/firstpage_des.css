@@ -1,0 +1,120 @@
+
+footer{
+	
+	left:0;
+	bottom:0;
+	padding-top: 10px;
+	height: 60px;
+	width:100%;
+
+
+
+	  text-align:center;
+	  color:white;
+	  font-size:20px;
+	  text-align: center;
+	background-color: #490249;
+
+
+}
+body{	
+	background-color:white;
+	
+}
+
+
+.free{
+	background-color: #490249;
+}
+
+
+header .carousel-inner .item{
+	                         height:100vh;
+}
+.carousel-caption{
+	              padding-bottom:150px;
+	              color:#8E8D8A;
+                  
+}
+.jumbotron{
+           background-color:white;
+           color:#490249;
+}
+hr{
+   background-color:#490249;
+}
+.about{
+	   font-size: 40px;
+	   color:white;
+	   text-align: justify;
+}
+.middle{
+	    text-align: center;
+	    color:#8E8D8A;
+}
+.info{
+	color:black;
+	font-size:40px;
+
+}
+
+.me{
+	text-align: center;
+}
+table,th,tr{
+	
+	color: black;
+	border:collapse;
+	width:100%;
+	text-align:center;
+	table-layout: center;
+	margin-right: center;
+	border: 1px solid black;
+	
+
+	
+
+}
+
+
+mark{
+	color: grey;
+	background-color: black;
+}
+.session
+{
+	color:white;
+	text-align: center;
+	font-size:15px;
+
+}
+.valid{
+	color: red;
+}
+.info1{
+	color: black;
+	text-align:center;
+	font-size: 4000px;
+}
+
+.btnn-css{
+	padding-top: 8px;
+}
+nav{
+	height: 100px;
+	width: 100%;
+	background-color:  #490249;
+	color:#490249 ;
+}
+.hey{
+	background-color: #490249;
+}
+.error
+{
+	text-align: center;
+	color:#490249;
+	font-size: 40px;
+}
+p{
+	color: #490249;
+}

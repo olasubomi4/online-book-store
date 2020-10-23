@@ -1,0 +1,21 @@
+body{
+	color:grey;
+	text-align: center;
+	font-size: 20px;
+    table-layout: center;
+	margin-right: center;
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%,-50%);
+	background: url(free3.jpg);
+	background-size: cover;
+}
+table{	
+	width:400px;
+    height:300px;
+  
+}
+details{
+	color:white;
+
+}
