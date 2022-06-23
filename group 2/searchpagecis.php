@@ -1,6 +1,6 @@
 <?php
     session_start();
-s
+
     $count = 0;
     // connecto database
 

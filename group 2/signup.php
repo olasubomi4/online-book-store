@@ -45,7 +45,10 @@ require_once "./template/headersignup.php";
 				<br>
 				<br>
 				<select name="course">
-					<option value=" Computer science">Computer science</option>
+					<option value=" Computer science">Computer Science</option>
+					<option value=" Computer technology">Computer Technology</option>
+					<option value=" Software Engineering">Software Engineering</option>
+					<option value=" Computer Information System">Computer Information System </option>
 					
 				</select>
 				<br>

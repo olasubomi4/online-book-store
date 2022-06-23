@@ -40,7 +40,7 @@ if (!$count>0) {
            if (filter_var($e, FILTER_VALIDATE_EMAIL)== true) 
            {
 
-          if (preg_match('/^[0-9][0-9]{0,15}$/', $phone)) {
+          if (preg_match('/^[0-9]{0,15}+$/', $phone)) {
           	 if($new>=14)
                        {
           	            
@@ -76,9 +76,11 @@ if (!$count>0) {
 	        	 header("location:signup.php?signup_ser=date&firstname=$firstname&lastname=$lastname&username=$username&gender=$gender&date=$date");
 	             
 	        	}
-                     }
+
+             }
             else
 	        {
+				echo "invalid phone number";
 	        	 header("location:signup.php?signup_ser=number&firstname=$firstname&lastname=$lastname&username=$username&gender=$gender&date=$date");
 	             
 	        	}

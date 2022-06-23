@@ -2,7 +2,7 @@
 require_once "./template/headeradmin.php";
 session_start();
 
-}
+
 ?>
 
 <table class="table table table-white table-striped ">
